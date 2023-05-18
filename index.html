@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font ends here -->
+
+    <title>Full Screen Slider using HTML, CSS & JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+  </head>
+  <body>
+    <section class="fullscreen-slider-with-header">
+      <nav class="site-header">
+        <div class="nav-logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="logo" width="314" height="60" />
+          </a>
+        </div>
+        <button class="hamburger">
+          <img src="img/menu.png" alt="menu toggle icon" />
+        </button>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- .site-header -->
+
+      <div class="slideshow-container">
+        <div class="mySlides fade bg1">
+          <h3 class="text">Aspernatur consectetur quisquam</h3>
+        </div>
+        <!-- .mySlides -->
+
+        <div class="mySlides fade bg2">
+          <h3 class="text">Debipisicing laboriosam deserunt</h3>
+        </div>
+        <!-- .mySlides -->
+
+        <div class="mySlides fade bg3">
+          <h3 class="text">Consectetur voluptates suscipit</h3>
+        </div>
+        <!-- .mySlides -->
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <!-- .slideshow-container -->
+    </section>
+    <!-- .fullscreen-slider-with-header -->
+
+    <section class="regular-content">
+      <div class="content">
+        <h2>This is content area</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          unde, eius possimus at perspiciatis vero commodi harum molestias
+          accusantium, quas ea corporis ut molestiae nam eum velit ab fugit
+          adipisci!
+        </p>
+        <img src="./img/slide-2.jpg" alt="flower" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+          nostrum magni tempora, est fuga pariatur, officiis, vitae ab
+          consequuntur fugiat rem voluptatibus error voluptatum velit sed qui
+          iusto laudantium sapiente!
+        </p>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
